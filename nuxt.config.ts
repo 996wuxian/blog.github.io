@@ -1,3 +1,4 @@
+import path from "path";
 export default defineNuxtConfig({
   modules: [
     "@vueuse/nuxt",
@@ -32,4 +33,10 @@ export default defineNuxtConfig({
   },
 
   plugins: [{ src: "@/plugins/aos.client.ts", ssr: false, mode: "client" }],
+
+  nitro: {
+    output: {
+      publicDir: path.join(__dirname, "docs"),
+    },
+  },
 });
