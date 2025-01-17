@@ -25,12 +25,6 @@ export const name = "江思乐";
 
 export const typedDes = ["时长2年半的前端开发工程师"];
 
-export const desc = `在本科阶段，我学习了计算机基础、数据库原理与实践、Vue等课程，并在大三时深入接触前端开发。在编程的挑战中，我乐在其中，与团队合作开发项目、解决复杂问题的过程带来了巨大的满足感。我擅长使用
-Vue3、Vite 和 Nuxt.js 等技术，对 JavaScript, TypeScript 和 HTML/CSS
-也有很深的理解 💻。平时，我喜欢学习新技能并做一些有趣的项目
-🛠️。如果不在电脑前，我喜欢做饭、看电影
-🍳🎥💪，规律的睡眠和饮食是我精力充沛的秘诀 🌟。`;
-
 export const projectsData = [
   {
     title: "template-admin",
@@ -38,7 +32,7 @@ export const projectsData = [
       "一个清新优雅的后台管理模板，基于最新的前端技术栈，包括Vue3 + Ts + Vite + Pinia + UnoCss + Naive UI...",
     tags: ["Vue 3", "TypeScript", "Vite", "UnoCss", "Naive UI", "Pinia"],
     imageUrl: "/template-admin.jpg",
-    projectUrl: "",
+    projectUrl: "https://github.com/996wuxian/template-admin",
     demoUrl: "",
     detailRoute: "",
   },
