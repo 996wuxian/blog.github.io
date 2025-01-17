@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   ],
   css: ["~/assets/sass/global.scss"],
   app: {
-    baseURL: "/",
+    baseURL: "/blog.github.io/",
     head: {
       title: "wuxian's blog",
       link: [
