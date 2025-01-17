@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   css: ["~/assets/sass/global.scss"],
   app: {
     baseURL: "/blog.github.io/",
+    buildAssetsDir: "nuxt_assets",
     head: {
       title: "wuxian's blog",
       link: [
@@ -21,6 +22,9 @@ export default defineNuxtConfig({
         },
       ],
     },
+  },
+  experimental: {
+    payloadExtraction: false,
   },
   devtools: { enabled: false },
   devServer: {
