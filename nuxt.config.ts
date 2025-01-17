@@ -38,9 +38,9 @@ export default defineNuxtConfig({
 
   plugins: [{ src: "@/plugins/aos.client.ts", ssr: false, mode: "client" }],
 
-  nitro: {
-    output: {
-      publicDir: path.join(__dirname, "docs"),
-    },
-  },
+  // nitro: {
+  //   output: {
+  //     publicDir: path.join(__dirname, "docs"),
+  //   },
+  // },
 });
