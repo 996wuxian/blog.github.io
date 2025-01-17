@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   css: ["~/assets/sass/global.scss"],
   app: {
     baseURL: "/blog.github.io/",
-    buildAssetsDir: "nuxt_assets",
+    // buildAssetsDir: "nuxt_assets",
     head: {
       title: "wuxian's blog",
       link: [
@@ -23,21 +23,9 @@ export default defineNuxtConfig({
       ],
     },
   },
-  image: {
-    // 配置图片模块
-    domains: ["996wuxian.github.io"], // 允许的域名
-    format: ["webp", "jpg", "png"],
-    dir: "public", // 图片存储目录
-    staticFilename: "[publicPath]/[name][ext]", // 静态文件命名规则
-    // 配置图片 provider
-    provider: "ipx",
-    ipx: {
-      publicPath: "/blog.github.io", // 匹配 baseURL
-    },
-  },
-  experimental: {
-    payloadExtraction: false,
-  },
+  //   experimental: {
+  //     payloadExtraction: false
+  // },
   devtools: { enabled: false },
   devServer: {
     port: 9527,
