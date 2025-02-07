@@ -12,7 +12,7 @@ const props = defineProps<{
   project: Project;
 }>();
 
-const { title, description, tags, imageUrl, projectUrl, demoUrl, detailRoute } =
+const { title, description, tags, imageUrl, projectUrl, demoUrl } =
   props.project;
 </script>
 
