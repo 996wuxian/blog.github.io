@@ -36,6 +36,24 @@ export const projectsData = [
     demoUrl: "",
     detailRoute: "",
   },
+  {
+    title: "template-admin",
+    description:
+      "一个使用Electron + Vue3 + Ts + Vite + Pinia + UnoCss + Naive UI搭建的基础Electron模板",
+    tags: [
+      "Electron",
+      "Vue 3",
+      "TypeScript",
+      "Vite",
+      "UnoCss",
+      "Naive UI",
+      "Pinia",
+    ],
+    imageUrl: "/template-electron.png",
+    projectUrl: "https://github.com/996wuxian/template-electron",
+    demoUrl: "",
+    detailRoute: "",
+  },
 ];
 
 export const skillsData = [
