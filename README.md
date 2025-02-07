@@ -24,7 +24,7 @@ bun install
 
 Start the development server on `http://localhost:3000`:
 
-```bash
+`````bash
 # npm
 npm run dev
 
@@ -34,15 +34,11 @@ pnpm run dev
 # yarn
 yarn dev
 
-# bun
-bun run dev
-```
-
 ## Production
 
 Build the application for production:
 
-```bash
+````bash
 # npm
 npm run build
 
@@ -51,10 +47,6 @@ pnpm run build
 
 # yarn
 yarn build
-
-# bun
-bun run build
-```
 
 Locally preview production build:
 
@@ -68,8 +60,5 @@ pnpm run preview
 # yarn
 yarn preview
 
-# bun
-bun run preview
-```
-
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+`````
