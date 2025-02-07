@@ -37,7 +37,7 @@ export const projectsData = [
     detailRoute: "",
   },
   {
-    title: "template-admin",
+    title: "template-electron",
     description:
       "一个使用Electron + Vue3 + Ts + Vite + Pinia + UnoCss + Naive UI搭建的基础Electron模板",
     tags: [
@@ -79,6 +79,7 @@ export const skillsData = [
   "Redis",
   "微信小程序",
   "Uniapp",
+  "Electron",
 ];
 
 export const experiencesDataZn = [

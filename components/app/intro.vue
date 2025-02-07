@@ -33,12 +33,9 @@ const { play, stop } = useSound(bubble);
     <div class="flex items-center justify-center">
       <div class="relative">
         <div data-aos="zoom-in">
-          <NuxtImg
+          <img
             src="/avatar.png"
             alt="avatar"
-            width="250"
-            height="250"
-            quality="95"
             class="h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
           />
         </div>

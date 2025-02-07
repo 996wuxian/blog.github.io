@@ -75,11 +75,11 @@ const { title, description, tags, imageUrl, projectUrl, demoUrl } =
         </ul>
       </div>
 
-      <NuxtImg
+      <img
         :src="imageUrl"
         alt="Project I worked on"
         quality="95"
-        class="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 group-even:right-[initial] group-even:-left-40"
+        class="absolute top-8 -right-10 w-[22.25rem] rounded-t-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 group-even:right-[initial] group-even:-left-10"
       />
     </section>
 
@@ -87,7 +87,7 @@ const { title, description, tags, imageUrl, projectUrl, demoUrl } =
       class="card shadow-xl sm:hidden dark:text-white dark:bg-white/10 max-w-[45rem]"
     >
       <figure class="bg-base-100">
-        <NuxtImg
+        <img
           :src="imageUrl"
           alt="Project I worked on"
           quality="95"

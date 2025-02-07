@@ -3,14 +3,13 @@ export default defineNuxtConfig({
   modules: [
     "@vueuse/nuxt",
     "@nuxtjs/tailwindcss",
-    "@nuxt/image",
     "nuxt-icon",
     "@vueuse/motion/nuxt",
     "@vueuse/sound/nuxt",
   ],
   css: ["~/assets/sass/global.scss"],
   app: {
-    baseURL: "/blog.github.io/",
+    baseURL: process.env.NODE_ENV === "production" ? "/blog.github.io/" : "/",
     // buildAssetsDir: "nuxt_assets",
     head: {
       title: "wuxian's blog",
