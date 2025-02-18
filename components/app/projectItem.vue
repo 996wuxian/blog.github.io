@@ -12,6 +12,8 @@ const props = defineProps<{
   project: Project;
 }>();
 
+const isDev = computed(() => import.meta.env.MODE === "development");
+
 const { title, description, tags, imageUrl, projectUrl, demoUrl } =
   props.project;
 </script>
@@ -74,9 +76,8 @@ const { title, description, tags, imageUrl, projectUrl, demoUrl } =
           </li>
         </ul>
       </div>
-
       <img
-        :src="'/blog.github.io/' + imageUrl"
+        :src="isDev ? imageUrl : '/blog.github.io/' + imageUrl"
         alt="Project I worked on"
         quality="95"
         class="absolute top-8 -right-10 w-[22.25rem] rounded-t-lg shadow-2xl transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 group-even:right-[initial] group-even:-left-10"
@@ -88,7 +89,7 @@ const { title, description, tags, imageUrl, projectUrl, demoUrl } =
     >
       <figure class="bg-base-100">
         <img
-          :src="'/blog.github.io/' + imageUrl"
+          :src="isDev ? imageUrl : '/blog.github.io/' + imageUrl"
           alt="Project I worked on"
           quality="95"
           class="h-[200px] object-cover"
